@@ -1,0 +1,186 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/* RESET STYLES----------------------------------------------------------------------*/
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/* DEFINICIÓN de clases genérica de tamaños de fuentes-------------------------------*/
+/* fs: font size*/
+
+.fs-small{
+	font-size: 12px;
+}
+
+.fs-med{
+	font-size: 14px;
+}
+
+.fs-big{
+	font-size: 18px;
+}
+
+/* DEFINICIÓN genérica de tipos de fuentes------------------------------------------*/
+/* ff: font family*/
+
+.ff-francois{
+	font-family: 'Francois One', sans-serif;
+}
+
+.ff-sans{
+	font-family: sans-serif;
+}
+
+/* DEFINICIÓN genérica de colores de fuentes----------------------------------------*/
+/* fc: font color*/
+
+.fc-dark-blue{
+	color: #013666;
+}
+
+.fc-blue{
+	color: #005d84;
+}
+
+.fc-green{
+	color: #C7F464;
+}
+
+.fc-white{
+	color: #ffffff;
+}
+
+.fc-yellow{
+	color:#fcd93c;
+}
+
+.fc-grey{
+	color: #4c4c51;
+}
+
+
+/* DEFINICIÓN genérica alineación de texto--------------------------------------------*/
+/* fa: text-align*/
+
+.ta-justify{
+	text-align: justify;
+}
+
+.ta-right{
+	text-align : right;
+}
+
+/* DEFINICIÓN genérica transformación de texto-----------------------------------------*/
+/* tt: text-transformation*/
+.tt-upper{
+	text-transform: uppercase;
+}
+
+
+/* definición de estilos---------------------------------------------------------------*/
+.main-menu-container{
+	background-color: #C7F464;
+}
+
+.page-logo{
+	height:inherit;
+}
+
+.menu-options{
+	margin-right: 20%;
+	margin-top: 1%;
+}
+
+ul.menu-options li{
+	text-transform: uppercase;
+}
+
+ul.menu-options li, a
+ul.menu-options li.active a{
+	background-color: transparent;
+	color: #556270;
+}
+
+ul.menu-options li a:hover,
+ul.menu-options li.active a:hover{
+	background-color: #C44D58;
+	color: #C7F464;
+
+}
+
+ul.menu-options li.active a{
+	background-color: #C44D58;
+	color: #C7F464;
+}
+
+
+
+.main-header{
+	background-color: #4ECDC4;
+	margin-top: 4%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+.banner-image{
+	margin: 0 auto;
+}
+
+.main-info{
+	margin-top: 14%;
+	margin-left: 5%;
+	margin-right: 18%;
+}
+
+a.green-btn-top{
+background-color: #C7F464;
+float: right;
+color: #C44D58;
+width: 24%;
+text-align: center;
+padding-bottom: 1%;
+padding-top: 1%;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.search-container{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.search-container input{
+	width: 84%;
+	background-color: #C7F464;
+	color: #4c4c51;
+	border: 0px;
+	line-height: 30px;
+}
+
+.search-container img{
+	cursor: pointer;
+}
+
+footer{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: #C44D58;
+}
+
+
+.foot-img{
+	margin: 0 auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.main-info2{
+	margin-top: 14%;
+}
